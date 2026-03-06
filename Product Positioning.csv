@@ -1,0 +1,501 @@
+Product ID,Product Position,Price,Competitor's Price,Promotion,Foot Traffic,Consumer Demographics,Product Category,Seasonal,Sales Volume
+1,Entrance Display,98.77,93.46,Yes,Low,Students,Electronics,No,128
+2,Eye Level,232.71,216.75,Yes,High,Young Adults,Home & Kitchen,Yes,299
+3,Entrance Display,479.86,506.85,No,Low,Families,Personal Care,No,98
+4,End Cap,1916.57,1854.87,Yes,Low,Families,Electronics,No,128
+5,Floor Level,1623.9,1795.07,No,High,Young Adults,Home & Kitchen,No,123
+6,Entrance Display,1175.84,1289.43,No,Low,Middle-Aged,Personal Care,Yes,129
+7,End Cap,791.25,798.13,Yes,Medium,Seniors,Sports,Yes,209
+8,Checkout Zone,1091.57,1021.36,Yes,Medium,Families,Personal Care,Yes,165
+9,Entrance Display,1693.56,1899.5,No,Low,Families,Personal Care,Yes,113
+10,End Cap,464.62,476.11,No,High,Families,Food & Beverages,No,175
+11,End Cap,1502.73,1560.8,Yes,High,Families,Personal Care,Yes,223
+12,End Cap,227.27,196.93,No,Low,Middle-Aged,Sports,Yes,90
+13,Entrance Display,1213.0,1194.4,No,High,Students,Electronics,Yes,206
+14,Entrance Display,1548.77,1500.85,No,Medium,Families,Food & Beverages,No,139
+15,Eye Level,1945.18,2172.16,No,High,Seniors,Sports,Yes,268
+16,End Cap,1536.9,1596.51,No,High,Young Adults,Home & Kitchen,No,186
+17,Top Shelf,268.14,261.98,Yes,Medium,Students,Electronics,Yes,113
+18,Entrance Display,1641.25,1956.85,No,High,Middle-Aged,Food & Beverages,No,196
+19,Checkout Zone,566.86,654.92,Yes,Medium,Middle-Aged,Sports,No,194
+20,Top Shelf,904.3,932.47,No,Low,Middle-Aged,Food & Beverages,Yes,52
+21,Floor Level,1197.2,1114.04,Yes,Low,Young Adults,Food & Beverages,Yes,92
+22,Eye Level,188.17,175.62,No,High,Families,Food & Beverages,Yes,235
+23,Entrance Display,523.84,531.98,No,Medium,Families,Personal Care,No,143
+24,Top Shelf,1734.48,1507.19,No,High,Young Adults,Electronics,No,125
+25,Entrance Display,1611.16,1431.1,No,Low,Families,Food & Beverages,No,106
+26,Top Shelf,1755.25,1538.27,Yes,High,Young Adults,Electronics,Yes,166
+27,Eye Level,374.31,381.79,Yes,Low,Middle-Aged,Clothing,Yes,185
+28,Top Shelf,1856.71,2088.42,No,Medium,Families,Sports,No,57
+29,End Cap,628.58,747.41,Yes,High,Seniors,Electronics,Yes,259
+30,Checkout Zone,1030.56,1183.55,No,Low,Young Adults,Home & Kitchen,Yes,76
+31,End Cap,1210.32,1314.8,Yes,Low,Students,Food & Beverages,Yes,100
+32,Checkout Zone,867.49,914.58,Yes,High,Seniors,Personal Care,Yes,222
+33,Entrance Display,515.44,509.53,No,High,Young Adults,Electronics,No,168
+34,Checkout Zone,192.86,178.32,Yes,Medium,Middle-Aged,Personal Care,Yes,132
+35,End Cap,605.73,607.77,No,High,Students,Electronics,No,200
+36,Entrance Display,1880.91,1687.18,Yes,Low,Young Adults,Sports,Yes,96
+37,Floor Level,1229.42,1353.79,No,Low,Students,Clothing,No,34
+38,Eye Level,1286.85,1467.36,Yes,Low,Young Adults,Personal Care,Yes,121
+39,Entrance Display,365.08,366.77,No,High,Young Adults,Sports,Yes,179
+40,Checkout Zone,1677.46,1767.84,Yes,Low,Families,Food & Beverages,Yes,106
+41,Floor Level,1803.01,2034.95,No,Low,Middle-Aged,Sports,Yes,60
+42,Floor Level,1948.98,2167.88,No,Low,Middle-Aged,Food & Beverages,No,40
+43,Eye Level,1486.3,1436.16,Yes,Medium,Middle-Aged,Personal Care,Yes,237
+44,Entrance Display,795.96,687.35,Yes,Medium,Middle-Aged,Food & Beverages,No,137
+45,Floor Level,1650.05,1905.75,No,Low,Seniors,Personal Care,Yes,61
+46,Floor Level,1300.89,1287.73,No,High,Seniors,Electronics,Yes,92
+47,Floor Level,1182.15,1411.77,Yes,Low,Seniors,Clothing,Yes,77
+48,Top Shelf,546.71,600.33,Yes,Low,Students,Home & Kitchen,Yes,92
+49,Floor Level,186.45,201.83,No,Medium,Young Adults,Sports,No,48
+50,Checkout Zone,1350.44,1302.05,No,High,Seniors,Home & Kitchen,Yes,135
+51,End Cap,1346.61,1323.31,No,High,Seniors,Clothing,Yes,230
+52,Floor Level,459.86,517.35,No,High,Seniors,Clothing,No,75
+53,Top Shelf,1046.79,1180.58,Yes,High,Students,Sports,No,150
+54,Eye Level,1361.95,1264.74,Yes,Low,Middle-Aged,Electronics,Yes,164
+55,End Cap,1241.98,1389.74,No,Medium,Middle-Aged,Sports,No,135
+56,Top Shelf,525.77,567.63,No,Low,Young Adults,Clothing,Yes,77
+57,End Cap,147.93,138.64,No,Low,Students,Home & Kitchen,No,77
+58,Top Shelf,1669.61,1739.32,No,Low,Families,Clothing,No,72
+59,End Cap,1543.34,1593.43,No,High,Seniors,Food & Beverages,No,209
+60,Floor Level,1791.4,1573.21,No,Low,Middle-Aged,Clothing,Yes,70
+61,Entrance Display,175.25,173.96,Yes,High,Families,Clothing,Yes,220
+62,Checkout Zone,980.11,1156.49,No,Medium,Families,Clothing,Yes,121
+63,Top Shelf,582.22,593.85,Yes,Medium,Families,Sports,Yes,96
+64,Top Shelf,1962.41,2034.91,Yes,Medium,Students,Home & Kitchen,Yes,138
+65,Eye Level,314.61,318.26,No,Low,Families,Personal Care,No,124
+66,Top Shelf,1516.42,1730.5,No,Medium,Young Adults,Clothing,Yes,107
+67,Entrance Display,1999.82,1944.8,Yes,High,Young Adults,Electronics,Yes,273
+68,End Cap,1261.6,1177.69,Yes,Medium,Young Adults,Home & Kitchen,Yes,220
+69,Top Shelf,1545.45,1404.39,No,High,Middle-Aged,Personal Care,Yes,148
+70,Checkout Zone,1861.33,1957.24,Yes,Medium,Families,Sports,Yes,142
+71,Eye Level,248.71,278.65,Yes,High,Students,Electronics,No,284
+72,Checkout Zone,1339.97,1171.31,No,High,Seniors,Electronics,No,150
+73,Top Shelf,895.37,874.57,Yes,Medium,Students,Sports,No,106
+74,Checkout Zone,956.5,1089.46,No,High,Seniors,Personal Care,Yes,135
+75,Eye Level,1769.18,1654.81,No,Medium,Seniors,Electronics,No,153
+76,Floor Level,1000.72,974.89,Yes,Medium,Seniors,Personal Care,No,74
+77,Checkout Zone,1057.42,969.52,Yes,Low,Middle-Aged,Sports,No,100
+78,Entrance Display,923.94,790.93,No,Medium,Middle-Aged,Clothing,Yes,117
+79,Floor Level,972.86,1007.71,No,Medium,Seniors,Sports,No,95
+80,Floor Level,540.24,482.02,No,Low,Seniors,Electronics,Yes,48
+81,End Cap,1490.28,1410.96,Yes,High,Seniors,Electronics,Yes,284
+82,Floor Level,753.72,720.4,Yes,High,Students,Food & Beverages,No,110
+83,Eye Level,1129.05,1235.29,Yes,Low,Young Adults,Electronics,No,135
+84,Top Shelf,908.91,831.22,No,Low,Seniors,Clothing,Yes,37
+85,Eye Level,1008.91,1061.33,No,High,Students,Personal Care,Yes,244
+86,End Cap,1138.24,1133.3,Yes,High,Students,Food & Beverages,No,263
+87,Top Shelf,629.84,665.1,No,Medium,Students,Sports,Yes,80
+88,End Cap,566.06,497.24,Yes,Low,Middle-Aged,Home & Kitchen,Yes,166
+89,End Cap,846.61,923.89,Yes,Medium,Seniors,Sports,No,196
+90,Eye Level,1851.63,2084.45,Yes,High,Students,Sports,Yes,306
+91,Top Shelf,1111.9,1197.15,Yes,Medium,Middle-Aged,Personal Care,No,116
+92,Top Shelf,963.96,921.96,Yes,Medium,Seniors,Home & Kitchen,No,105
+93,Top Shelf,1216.17,1412.34,Yes,High,Young Adults,Food & Beverages,Yes,139
+94,Entrance Display,1173.68,1311.1,No,Low,Families,Home & Kitchen,No,111
+95,Floor Level,1994.04,1999.14,Yes,Medium,Families,Personal Care,No,109
+96,Entrance Display,1722.58,1663.03,Yes,High,Families,Personal Care,No,223
+97,Checkout Zone,936.91,899.51,Yes,Medium,Students,Electronics,No,175
+98,Top Shelf,415.79,406.07,Yes,Medium,Families,Electronics,Yes,135
+99,Floor Level,1858.96,1865.17,Yes,High,Students,Food & Beverages,Yes,108
+100,Floor Level,1126.89,994.62,Yes,Low,Families,Electronics,Yes,61
+101,Top Shelf,1042.3,985.7,No,Medium,Students,Food & Beverages,No,104
+102,End Cap,1734.85,1642.36,Yes,Medium,Seniors,Home & Kitchen,No,198
+103,Eye Level,1465.8,1675.58,No,High,Middle-Aged,Clothing,No,257
+104,Floor Level,1126.24,1171.52,No,Medium,Seniors,Food & Beverages,Yes,69
+105,Checkout Zone,505.45,566.83,No,Low,Families,Clothing,Yes,74
+106,Top Shelf,296.18,351.82,Yes,Medium,Young Adults,Clothing,Yes,133
+107,Checkout Zone,79.93,71.97,No,High,Seniors,Personal Care,No,163
+108,Entrance Display,1710.94,1964.71,Yes,High,Families,Personal Care,No,226
+109,Checkout Zone,1254.05,1168.99,Yes,High,Young Adults,Clothing,Yes,255
+110,Entrance Display,915.17,1000.19,Yes,Low,Young Adults,Personal Care,Yes,89
+111,Floor Level,780.94,703.59,No,High,Middle-Aged,Food & Beverages,Yes,65
+112,Eye Level,1258.44,1175.75,No,High,Middle-Aged,Food & Beverages,No,249
+113,Entrance Display,946.16,1025.06,No,Medium,Middle-Aged,Electronics,No,164
+114,Floor Level,1295.93,1294.0,No,Medium,Families,Personal Care,Yes,52
+115,Top Shelf,257.97,253.71,No,Medium,Seniors,Electronics,No,34
+116,Floor Level,1153.56,1257.41,Yes,High,Young Adults,Home & Kitchen,No,85
+117,Floor Level,1233.78,1200.85,Yes,High,Middle-Aged,Sports,Yes,119
+118,Entrance Display,652.42,655.22,Yes,High,Seniors,Sports,Yes,241
+119,Eye Level,687.1,683.96,No,Low,Seniors,Home & Kitchen,No,142
+120,End Cap,1832.4,2163.09,No,Medium,Seniors,Electronics,No,178
+121,Eye Level,1520.6,1412.58,Yes,High,Students,Personal Care,Yes,283
+122,Top Shelf,565.69,505.31,Yes,Medium,Seniors,Home & Kitchen,No,57
+123,Entrance Display,261.27,243.46,No,Low,Seniors,Home & Kitchen,Yes,62
+124,Entrance Display,1289.04,1305.14,Yes,High,Seniors,Sports,No,194
+125,Eye Level,138.43,119.47,Yes,Medium,Students,Food & Beverages,No,235
+126,Top Shelf,1357.45,1506.9,No,High,Families,Home & Kitchen,Yes,126
+127,Top Shelf,1675.7,1785.42,Yes,Medium,Families,Clothing,Yes,131
+128,Floor Level,1962.81,1920.74,Yes,High,Seniors,Electronics,No,117
+129,Floor Level,1938.0,2291.01,Yes,Medium,Students,Electronics,Yes,99
+130,Floor Level,1978.2,2226.35,Yes,Low,Young Adults,Home & Kitchen,Yes,68
+131,Checkout Zone,1635.45,1523.5,Yes,Low,Seniors,Food & Beverages,Yes,111
+132,Checkout Zone,1607.1,1427.87,No,Low,Middle-Aged,Electronics,No,57
+133,End Cap,80.77,76.16,No,Low,Young Adults,Clothing,No,110
+134,Floor Level,931.41,863.92,Yes,High,Young Adults,Sports,No,89
+135,Top Shelf,168.61,171.58,Yes,Medium,Families,Electronics,Yes,103
+136,Floor Level,178.08,168.51,Yes,High,Students,Home & Kitchen,No,118
+137,Top Shelf,934.75,992.61,No,Low,Students,Sports,Yes,65
+138,Top Shelf,1781.78,1772.58,No,Medium,Families,Clothing,Yes,80
+139,Floor Level,659.42,619.33,No,Low,Young Adults,Electronics,Yes,40
+140,Top Shelf,1501.95,1472.55,Yes,Low,Students,Electronics,No,57
+141,Entrance Display,851.08,983.65,Yes,Medium,Seniors,Home & Kitchen,No,196
+142,Floor Level,1176.94,1088.03,Yes,High,Families,Food & Beverages,Yes,90
+143,Floor Level,274.03,259.64,No,Low,Students,Home & Kitchen,Yes,62
+144,Checkout Zone,106.46,100.67,No,Medium,Seniors,Personal Care,Yes,83
+145,End Cap,1154.33,1143.1,Yes,Low,Young Adults,Sports,Yes,136
+146,Top Shelf,934.61,845.91,No,Medium,Seniors,Home & Kitchen,Yes,36
+147,Eye Level,356.95,380.6,Yes,High,Families,Clothing,No,311
+148,Top Shelf,470.36,484.15,No,Medium,Families,Electronics,No,100
+149,Entrance Display,1077.52,1032.21,No,Low,Young Adults,Food & Beverages,No,76
+150,End Cap,1540.11,1465.12,Yes,Low,Young Adults,Clothing,No,156
+151,End Cap,791.4,867.6,Yes,High,Seniors,Electronics,No,232
+152,Entrance Display,900.63,910.46,Yes,Low,Seniors,Home & Kitchen,No,111
+153,Checkout Zone,1433.52,1428.06,No,Low,Middle-Aged,Home & Kitchen,No,40
+154,Entrance Display,221.85,254.14,No,Low,Families,Home & Kitchen,No,127
+155,Checkout Zone,821.75,787.73,Yes,Medium,Young Adults,Home & Kitchen,Yes,156
+156,Checkout Zone,1816.55,1766.2,Yes,High,Middle-Aged,Food & Beverages,Yes,229
+157,End Cap,434.68,461.13,No,High,Families,Clothing,No,251
+158,Entrance Display,1735.28,1855.93,No,Low,Families,Electronics,No,120
+159,Top Shelf,1602.84,1694.2,No,Medium,Families,Electronics,Yes,72
+160,Floor Level,199.63,230.07,No,Low,Students,Home & Kitchen,No,48
+161,Top Shelf,926.98,1050.67,Yes,High,Students,Food & Beverages,Yes,156
+162,Top Shelf,1631.39,1864.81,Yes,High,Young Adults,Home & Kitchen,Yes,171
+163,Eye Level,1429.86,1711.32,Yes,High,Seniors,Personal Care,No,280
+164,Top Shelf,1373.85,1192.95,No,High,Seniors,Electronics,No,115
+165,Eye Level,604.09,666.5,No,High,Middle-Aged,Personal Care,Yes,260
+166,Checkout Zone,1837.66,1761.55,Yes,High,Families,Food & Beverages,Yes,188
+167,Floor Level,1304.81,1259.1,No,Low,Students,Electronics,No,30
+168,Checkout Zone,85.55,81.97,No,Low,Seniors,Clothing,Yes,51
+169,End Cap,352.14,335.78,Yes,Low,Students,Electronics,No,115
+170,Checkout Zone,1214.63,1098.01,Yes,Low,Students,Food & Beverages,No,103
+171,Eye Level,760.38,837.83,No,Medium,Families,Food & Beverages,Yes,154
+172,Floor Level,1812.75,1663.93,No,High,Students,Clothing,No,69
+173,Floor Level,1030.67,1027.09,No,Low,Middle-Aged,Personal Care,Yes,63
+174,Entrance Display,1754.53,1831.89,No,Low,Students,Electronics,No,65
+175,Eye Level,581.94,679.04,Yes,Low,Middle-Aged,Clothing,No,161
+176,Eye Level,153.85,157.8,No,Low,Families,Electronics,No,118
+177,End Cap,671.44,594.01,Yes,High,Middle-Aged,Electronics,No,239
+178,Top Shelf,1529.74,1551.44,Yes,High,Young Adults,Electronics,Yes,117
+179,Floor Level,1678.18,1748.8,Yes,High,Seniors,Food & Beverages,No,97
+180,Eye Level,514.96,552.88,Yes,High,Families,Electronics,Yes,279
+181,Top Shelf,1282.31,1348.05,Yes,High,Students,Personal Care,Yes,159
+182,Checkout Zone,415.26,450.09,No,High,Seniors,Electronics,Yes,172
+183,Top Shelf,134.89,132.92,No,Medium,Young Adults,Personal Care,Yes,89
+184,Entrance Display,1554.43,1721.24,Yes,Medium,Middle-Aged,Electronics,No,178
+185,Checkout Zone,1636.34,1491.17,No,High,Middle-Aged,Food & Beverages,Yes,125
+186,Entrance Display,122.12,112.42,No,Low,Young Adults,Personal Care,No,104
+187,Checkout Zone,1978.79,2058.06,No,Medium,Seniors,Personal Care,Yes,148
+188,Entrance Display,582.77,658.4,No,Medium,Families,Sports,No,146
+189,Top Shelf,1948.76,1994.89,No,Medium,Seniors,Electronics,No,65
+190,Eye Level,1224.78,1393.58,No,High,Seniors,Personal Care,Yes,260
+191,Eye Level,1338.79,1281.59,No,High,Families,Personal Care,No,231
+192,Eye Level,1248.96,1251.74,No,High,Young Adults,Electronics,No,222
+193,Floor Level,1907.94,1717.09,Yes,High,Middle-Aged,Electronics,Yes,104
+194,Entrance Display,756.19,894.05,No,Low,Students,Food & Beverages,No,78
+195,Floor Level,915.68,802.97,No,Low,Seniors,Food & Beverages,Yes,29
+196,Eye Level,1023.14,1008.25,Yes,High,Young Adults,Personal Care,No,288
+197,Entrance Display,468.41,498.46,No,High,Young Adults,Food & Beverages,Yes,202
+198,Top Shelf,1802.42,1812.85,Yes,Low,Seniors,Sports,No,67
+199,Entrance Display,1122.49,1068.19,Yes,Medium,Middle-Aged,Personal Care,Yes,193
+200,Eye Level,1594.53,1487.47,Yes,Medium,Young Adults,Personal Care,No,199
+201,Top Shelf,1243.3,1094.32,Yes,Medium,Families,Home & Kitchen,No,87
+202,Top Shelf,294.39,282.9,Yes,Low,Families,Clothing,No,97
+203,End Cap,1547.17,1384.97,Yes,High,Young Adults,Home & Kitchen,Yes,265
+204,Floor Level,365.84,430.65,Yes,Low,Seniors,Home & Kitchen,No,57
+205,Eye Level,432.79,512.74,No,Medium,Students,Electronics,Yes,191
+206,Checkout Zone,383.84,410.16,Yes,High,Seniors,Home & Kitchen,Yes,207
+207,Eye Level,138.65,148.98,Yes,High,Students,Clothing,Yes,291
+208,Top Shelf,1301.72,1244.1,No,Low,Families,Personal Care,No,76
+209,Eye Level,358.26,356.64,Yes,Medium,Seniors,Sports,No,232
+210,Entrance Display,1951.98,1748.52,No,Medium,Students,Home & Kitchen,Yes,166
+211,Floor Level,959.62,905.51,Yes,Low,Families,Home & Kitchen,No,65
+212,End Cap,1636.28,1925.6,Yes,High,Seniors,Food & Beverages,Yes,264
+213,Top Shelf,1022.58,979.62,No,Low,Families,Food & Beverages,Yes,79
+214,Checkout Zone,144.88,137.42,No,High,Families,Personal Care,Yes,166
+215,Eye Level,311.17,293.3,No,Medium,Families,Electronics,Yes,181
+216,Floor Level,193.39,198.51,No,High,Seniors,Home & Kitchen,Yes,71
+217,End Cap,818.11,923.0,Yes,Medium,Middle-Aged,Food & Beverages,No,182
+218,Checkout Zone,138.34,124.22,Yes,Medium,Families,Home & Kitchen,No,143
+219,End Cap,689.53,734.06,Yes,Low,Seniors,Home & Kitchen,No,118
+220,Checkout Zone,1432.04,1367.49,No,Low,Seniors,Personal Care,Yes,101
+221,Top Shelf,1603.67,1770.23,No,High,Seniors,Sports,Yes,98
+222,Entrance Display,1187.87,1080.58,Yes,High,Students,Clothing,Yes,207
+223,Entrance Display,111.56,131.85,Yes,Low,Families,Food & Beverages,No,130
+224,Entrance Display,850.24,953.32,Yes,Medium,Young Adults,Sports,Yes,195
+225,Checkout Zone,1143.73,1371.72,Yes,Medium,Middle-Aged,Clothing,No,132
+226,Checkout Zone,1367.94,1578.16,No,High,Seniors,Home & Kitchen,No,153
+227,End Cap,594.06,567.02,Yes,Medium,Families,Personal Care,No,204
+228,Floor Level,611.19,642.19,No,High,Families,Clothing,No,60
+229,End Cap,132.03,156.37,No,Low,Seniors,Sports,No,99
+230,End Cap,1664.51,1572.79,Yes,High,Seniors,Food & Beverages,Yes,277
+231,Checkout Zone,522.79,566.94,Yes,High,Young Adults,Clothing,No,197
+232,Entrance Display,246.06,275.53,No,Low,Students,Food & Beverages,No,112
+233,Entrance Display,981.02,902.35,No,Medium,Young Adults,Sports,Yes,127
+234,Checkout Zone,1830.8,1668.36,Yes,Low,Young Adults,Clothing,No,130
+235,End Cap,1759.65,1501.41,No,High,Seniors,Personal Care,No,171
+236,Entrance Display,1784.06,1600.25,No,High,Families,Personal Care,Yes,154
+237,Eye Level,366.86,370.76,No,Medium,Seniors,Personal Care,Yes,179
+238,End Cap,1662.63,1713.09,No,Low,Families,Sports,Yes,108
+239,End Cap,981.04,1155.21,Yes,Low,Seniors,Personal Care,No,139
+240,Checkout Zone,560.03,546.5,Yes,Low,Young Adults,Sports,Yes,119
+241,Top Shelf,361.45,394.03,No,High,Seniors,Personal Care,Yes,120
+242,End Cap,982.45,991.53,Yes,High,Seniors,Clothing,No,229
+243,Checkout Zone,1535.63,1670.95,Yes,High,Families,Home & Kitchen,No,200
+244,Eye Level,170.43,177.53,Yes,High,Middle-Aged,Home & Kitchen,Yes,286
+245,End Cap,1716.25,1724.22,No,High,Young Adults,Home & Kitchen,No,215
+246,Eye Level,307.29,305.88,No,High,Young Adults,Home & Kitchen,No,259
+247,Entrance Display,1460.4,1443.73,No,Low,Young Adults,Clothing,No,97
+248,Entrance Display,1105.27,962.79,Yes,Low,Families,Electronics,No,96
+249,Top Shelf,1549.5,1732.4,Yes,High,Families,Clothing,No,133
+250,Top Shelf,1381.32,1494.07,Yes,High,Middle-Aged,Sports,No,129
+251,Eye Level,1986.05,1961.36,Yes,Low,Young Adults,Electronics,No,155
+252,Top Shelf,1087.27,1237.5,No,Low,Families,Personal Care,Yes,48
+253,Floor Level,1877.95,2072.8,Yes,Low,Students,Electronics,Yes,90
+254,End Cap,246.75,212.64,Yes,High,Young Adults,Food & Beverages,Yes,265
+255,Top Shelf,506.96,469.47,No,Low,Middle-Aged,Sports,No,103
+256,Checkout Zone,511.96,592.18,No,High,Students,Food & Beverages,No,204
+257,Floor Level,168.87,199.6,No,High,Families,Home & Kitchen,No,114
+258,Eye Level,1886.09,2046.35,No,High,Seniors,Sports,No,219
+259,Top Shelf,634.78,580.42,Yes,High,Seniors,Sports,Yes,107
+260,Top Shelf,1146.65,1363.05,Yes,High,Students,Food & Beverages,No,152
+261,End Cap,446.51,480.6,No,Medium,Middle-Aged,Electronics,No,165
+262,Top Shelf,1753.56,1606.01,Yes,High,Students,Food & Beverages,No,139
+263,End Cap,641.22,749.04,No,Low,Young Adults,Sports,No,159
+264,End Cap,823.43,768.89,Yes,Medium,Seniors,Clothing,No,180
+265,Checkout Zone,651.42,635.7,No,Medium,Families,Personal Care,Yes,84
+266,Floor Level,857.16,897.35,No,Low,Middle-Aged,Electronics,No,56
+267,Checkout Zone,625.62,574.74,No,Low,Families,Home & Kitchen,No,56
+268,Floor Level,1934.69,2079.0,No,Medium,Families,Food & Beverages,No,95
+269,End Cap,1454.61,1485.03,Yes,High,Students,Electronics,Yes,310
+270,Entrance Display,1540.46,1531.74,Yes,High,Middle-Aged,Electronics,Yes,224
+271,Eye Level,1036.18,1016.1,Yes,High,Families,Sports,No,262
+272,Eye Level,1087.81,1081.25,Yes,Low,Students,Sports,No,122
+273,Checkout Zone,83.43,94.66,No,High,Middle-Aged,Electronics,Yes,113
+274,Checkout Zone,519.89,554.68,Yes,Medium,Seniors,Personal Care,No,170
+275,Eye Level,1920.63,1941.08,No,Low,Young Adults,Sports,Yes,140
+276,Eye Level,789.56,823.86,No,Low,Young Adults,Sports,Yes,125
+277,Eye Level,1698.39,1826.99,No,Medium,Young Adults,Home & Kitchen,Yes,143
+278,End Cap,1807.48,1974.31,Yes,High,Families,Personal Care,Yes,244
+279,Eye Level,1803.66,1888.84,No,Low,Young Adults,Food & Beverages,Yes,142
+280,Entrance Display,1861.31,1777.08,No,High,Middle-Aged,Home & Kitchen,No,217
+281,Entrance Display,798.5,885.47,No,High,Seniors,Electronics,Yes,178
+282,Top Shelf,1685.42,1633.52,Yes,High,Students,Clothing,No,122
+283,Eye Level,1577.92,1590.06,No,Low,Families,Food & Beverages,No,96
+284,Eye Level,1606.21,1766.17,No,Low,Seniors,Food & Beverages,No,163
+285,Entrance Display,1492.33,1433.89,Yes,Low,Families,Personal Care,No,162
+286,Eye Level,220.23,220.42,Yes,High,Students,Home & Kitchen,No,318
+287,Eye Level,224.76,234.64,Yes,High,Families,Electronics,No,278
+288,Top Shelf,1569.38,1732.12,No,High,Middle-Aged,Home & Kitchen,Yes,106
+289,Entrance Display,380.53,359.27,No,Medium,Families,Personal Care,No,132
+290,Floor Level,1576.2,1538.99,No,Low,Families,Home & Kitchen,Yes,49
+291,Top Shelf,314.2,267.81,Yes,Medium,Seniors,Clothing,No,98
+292,Top Shelf,635.85,674.72,Yes,High,Middle-Aged,Clothing,No,170
+293,End Cap,1939.01,1845.95,No,High,Middle-Aged,Personal Care,No,172
+294,Floor Level,761.78,896.02,No,Low,Students,Home & Kitchen,Yes,10
+295,Entrance Display,1908.36,1930.44,Yes,High,Young Adults,Clothing,No,236
+296,End Cap,521.94,563.97,No,High,Families,Clothing,Yes,242
+297,Top Shelf,1185.38,1229.27,No,High,Seniors,Sports,Yes,112
+298,Eye Level,1332.32,1298.02,Yes,High,Students,Electronics,No,295
+299,Floor Level,256.59,226.96,No,Low,Students,Sports,Yes,24
+300,Top Shelf,812.71,910.5,No,High,Students,Food & Beverages,No,115
+301,Eye Level,253.87,252.75,No,Low,Middle-Aged,Personal Care,No,161
+302,Floor Level,1579.33,1630.48,No,Medium,Families,Electronics,No,101
+303,Entrance Display,671.87,641.7,No,High,Young Adults,Sports,Yes,211
+304,Entrance Display,1056.19,1101.78,Yes,Medium,Students,Clothing,No,200
+305,End Cap,1278.03,1169.7,No,High,Students,Food & Beverages,No,203
+306,Checkout Zone,808.23,886.35,No,Low,Seniors,Sports,Yes,86
+307,Checkout Zone,1609.03,1670.03,Yes,Medium,Seniors,Sports,No,139
+308,Checkout Zone,1214.09,1291.74,No,High,Young Adults,Personal Care,No,175
+309,Top Shelf,1636.79,1795.72,Yes,Medium,Middle-Aged,Personal Care,Yes,135
+310,End Cap,278.05,272.67,No,Low,Students,Clothing,No,98
+311,Checkout Zone,1170.87,1168.6,Yes,Medium,Middle-Aged,Home & Kitchen,Yes,129
+312,Top Shelf,323.58,310.67,No,Medium,Students,Electronics,No,66
+313,Eye Level,316.24,359.04,No,High,Families,Clothing,No,210
+314,Top Shelf,211.21,181.81,Yes,Low,Seniors,Electronics,No,77
+315,End Cap,378.01,381.81,No,High,Students,Electronics,Yes,211
+316,Floor Level,1106.98,1234.14,No,High,Families,Home & Kitchen,Yes,67
+317,Top Shelf,1485.18,1602.19,Yes,Low,Families,Personal Care,No,56
+318,Eye Level,1737.32,1548.1,No,Low,Middle-Aged,Sports,No,198
+319,Entrance Display,373.66,335.82,No,Low,Students,Personal Care,No,112
+320,Checkout Zone,681.12,746.79,Yes,Medium,Students,Personal Care,Yes,116
+321,End Cap,1841.6,2205.08,No,High,Middle-Aged,Food & Beverages,No,236
+322,End Cap,1004.44,1056.77,No,Medium,Families,Clothing,No,188
+323,Eye Level,835.56,929.5,Yes,High,Families,Personal Care,Yes,310
+324,Entrance Display,1475.32,1490.75,Yes,High,Seniors,Electronics,No,220
+325,End Cap,1658.45,1696.84,No,Medium,Students,Food & Beverages,No,168
+326,Floor Level,139.59,149.24,Yes,Medium,Young Adults,Electronics,Yes,71
+327,Top Shelf,51.32,60.83,No,Low,Seniors,Food & Beverages,No,106
+328,Eye Level,538.26,527.57,No,High,Middle-Aged,Electronics,No,232
+329,Entrance Display,1465.68,1633.25,No,Medium,Young Adults,Food & Beverages,No,122
+330,Eye Level,1207.68,1246.09,Yes,Medium,Young Adults,Electronics,No,199
+331,Eye Level,1403.36,1427.49,No,Low,Young Adults,Electronics,No,101
+332,Floor Level,317.4,355.71,No,Low,Middle-Aged,Electronics,Yes,70
+333,Checkout Zone,908.19,1001.6,Yes,High,Students,Sports,No,194
+334,End Cap,1798.36,1616.73,Yes,Low,Students,Sports,No,95
+335,Floor Level,663.28,596.25,No,Medium,Students,Home & Kitchen,No,60
+336,Entrance Display,1703.39,1840.41,Yes,Medium,Middle-Aged,Home & Kitchen,Yes,163
+337,Entrance Display,626.31,544.33,No,Low,Families,Sports,Yes,88
+338,Checkout Zone,1974.42,2323.64,Yes,Low,Families,Home & Kitchen,No,105
+339,Floor Level,1537.32,1820.28,Yes,Low,Seniors,Food & Beverages,Yes,68
+340,Eye Level,1037.89,1110.54,No,High,Families,Clothing,No,234
+341,Eye Level,591.06,566.51,Yes,High,Middle-Aged,Home & Kitchen,No,340
+342,Top Shelf,654.83,656.87,Yes,Low,Young Adults,Food & Beverages,Yes,52
+343,Top Shelf,934.08,993.01,Yes,Medium,Middle-Aged,Electronics,Yes,97
+344,Entrance Display,1417.92,1286.54,Yes,Medium,Students,Home & Kitchen,No,149
+345,End Cap,297.51,334.22,No,Medium,Young Adults,Personal Care,No,158
+346,Floor Level,562.75,670.39,Yes,High,Young Adults,Clothing,No,103
+347,Checkout Zone,158.11,181.95,No,Low,Young Adults,Home & Kitchen,Yes,73
+348,End Cap,135.87,156.53,Yes,Low,Young Adults,Clothing,No,151
+349,Top Shelf,398.97,473.23,Yes,Low,Families,Food & Beverages,No,36
+350,End Cap,1835.92,1766.11,No,Low,Students,Personal Care,Yes,97
+351,Checkout Zone,399.72,452.29,Yes,Low,Families,Personal Care,No,112
+352,Floor Level,1128.53,962.4,Yes,Low,Seniors,Home & Kitchen,No,59
+353,Entrance Display,954.66,1009.16,Yes,Medium,Students,Food & Beverages,Yes,209
+354,Eye Level,96.62,100.44,No,High,Young Adults,Personal Care,Yes,233
+355,Entrance Display,1705.56,1883.83,No,Low,Families,Clothing,Yes,113
+356,End Cap,231.4,271.3,No,High,Families,Sports,No,262
+357,Top Shelf,1182.5,1214.31,Yes,High,Students,Electronics,No,149
+358,Entrance Display,511.7,481.69,Yes,Medium,Families,Sports,No,167
+359,Floor Level,580.31,508.43,No,Low,Young Adults,Food & Beverages,Yes,71
+360,End Cap,958.81,951.41,No,High,Seniors,Food & Beverages,No,233
+361,Floor Level,566.77,505.54,No,Low,Students,Electronics,Yes,55
+362,Floor Level,227.87,213.49,Yes,Medium,Families,Home & Kitchen,Yes,71
+363,Entrance Display,557.33,666.98,No,Low,Students,Sports,Yes,135
+364,Eye Level,248.72,280.51,No,Low,Young Adults,Electronics,Yes,114
+365,End Cap,1656.16,1623.51,Yes,High,Students,Personal Care,Yes,267
+366,Eye Level,435.61,468.76,Yes,Low,Young Adults,Personal Care,Yes,154
+367,Eye Level,148.74,174.54,No,Medium,Young Adults,Clothing,No,188
+368,End Cap,468.7,429.1,No,Medium,Families,Food & Beverages,Yes,141
+369,Checkout Zone,1312.19,1344.49,Yes,High,Families,Food & Beverages,No,186
+370,End Cap,1279.97,1447.34,Yes,Low,Families,Sports,No,141
+371,Top Shelf,720.87,755.46,No,Medium,Seniors,Home & Kitchen,Yes,80
+372,Eye Level,164.25,196.61,No,High,Seniors,Home & Kitchen,Yes,242
+373,End Cap,533.32,498.34,Yes,High,Young Adults,Food & Beverages,No,278
+374,Floor Level,393.4,415.97,Yes,High,Seniors,Home & Kitchen,Yes,72
+375,Entrance Display,1897.74,1987.43,No,High,Families,Home & Kitchen,No,218
+376,End Cap,124.03,107.86,No,High,Middle-Aged,Electronics,No,195
+377,Eye Level,1839.9,1693.65,No,Low,Seniors,Electronics,Yes,119
+378,End Cap,1560.01,1788.19,Yes,Medium,Young Adults,Personal Care,No,210
+379,Checkout Zone,706.29,680.09,Yes,Low,Families,Sports,No,102
+380,End Cap,485.31,512.55,No,Low,Families,Personal Care,No,90
+381,End Cap,1471.22,1739.09,Yes,High,Students,Electronics,Yes,210
+382,Checkout Zone,1846.02,2194.25,No,Low,Students,Electronics,No,124
+383,End Cap,1503.42,1403.14,No,Medium,Young Adults,Sports,No,180
+384,Top Shelf,567.16,531.62,Yes,Low,Seniors,Personal Care,Yes,114
+385,Entrance Display,143.89,144.38,Yes,Medium,Families,Clothing,No,215
+386,Checkout Zone,247.79,252.21,No,High,Middle-Aged,Food & Beverages,No,147
+387,Eye Level,625.07,601.04,Yes,Low,Families,Food & Beverages,Yes,168
+388,Checkout Zone,709.0,847.15,Yes,Medium,Young Adults,Clothing,Yes,155
+389,Checkout Zone,356.35,315.53,No,Low,Students,Sports,No,104
+390,Entrance Display,629.93,556.59,No,Medium,Students,Home & Kitchen,No,136
+391,End Cap,753.62,753.37,Yes,Medium,Families,Food & Beverages,Yes,212
+392,Eye Level,383.12,364.78,Yes,Low,Families,Electronics,No,132
+393,Top Shelf,1003.74,1085.41,No,Low,Seniors,Clothing,No,50
+394,End Cap,137.0,137.54,No,Medium,Middle-Aged,Personal Care,Yes,144
+395,End Cap,217.13,210.69,Yes,High,Middle-Aged,Home & Kitchen,Yes,231
+396,Top Shelf,1932.97,2107.85,No,Medium,Students,Food & Beverages,No,107
+397,Floor Level,819.87,941.93,Yes,Low,Students,Sports,Yes,18
+398,Eye Level,387.11,462.41,No,Low,Middle-Aged,Food & Beverages,Yes,125
+399,Top Shelf,1977.15,1981.87,Yes,High,Seniors,Sports,Yes,162
+400,Eye Level,1134.91,1183.96,No,Medium,Students,Clothing,Yes,201
+401,Entrance Display,269.41,243.11,No,High,Young Adults,Electronics,Yes,153
+402,Floor Level,1761.89,1660.49,No,High,Families,Home & Kitchen,No,73
+403,Eye Level,587.06,528.56,Yes,High,Families,Personal Care,Yes,283
+404,Eye Level,1845.63,2148.24,No,Low,Seniors,Personal Care,No,107
+405,Floor Level,1723.56,1878.16,No,Low,Families,Personal Care,No,84
+406,Entrance Display,1229.71,1083.68,No,Medium,Middle-Aged,Clothing,No,180
+407,Checkout Zone,1650.98,1701.08,No,Low,Families,Food & Beverages,Yes,112
+408,End Cap,1756.6,1616.52,Yes,Low,Middle-Aged,Electronics,No,152
+409,Eye Level,1424.04,1346.99,No,Medium,Young Adults,Sports,Yes,151
+410,End Cap,1003.13,1009.29,No,Medium,Students,Home & Kitchen,No,159
+411,Floor Level,1683.42,1583.31,Yes,High,Young Adults,Food & Beverages,Yes,117
+412,End Cap,1371.51,1294.95,Yes,Medium,Students,Electronics,Yes,202
+413,Top Shelf,1312.37,1391.64,Yes,Low,Seniors,Sports,No,83
+414,Top Shelf,1710.59,1728.81,No,Low,Families,Personal Care,No,90
+415,Checkout Zone,64.33,77.18,Yes,Medium,Seniors,Personal Care,Yes,125
+416,Top Shelf,705.75,668.18,Yes,Medium,Seniors,Personal Care,No,102
+417,End Cap,1058.72,988.96,Yes,Low,Students,Clothing,No,152
+418,Entrance Display,1456.5,1572.13,Yes,Medium,Seniors,Clothing,No,141
+419,Top Shelf,1186.9,1422.1,Yes,Low,Students,Sports,No,61
+420,Entrance Display,1039.26,1190.88,No,High,Students,Food & Beverages,No,208
+421,Eye Level,299.49,281.68,No,High,Seniors,Sports,Yes,235
+422,End Cap,485.49,560.74,No,Medium,Seniors,Personal Care,No,147
+423,Checkout Zone,954.33,850.52,No,Low,Students,Electronics,No,101
+424,End Cap,1741.62,1713.03,Yes,Medium,Families,Electronics,Yes,180
+425,End Cap,718.21,858.63,Yes,Medium,Middle-Aged,Electronics,No,224
+426,Floor Level,661.16,575.41,Yes,Medium,Seniors,Food & Beverages,Yes,118
+427,Checkout Zone,1004.68,1122.48,Yes,Low,Families,Clothing,No,119
+428,Top Shelf,59.1,61.28,No,High,Seniors,Electronics,No,132
+429,Checkout Zone,84.94,72.32,Yes,High,Seniors,Personal Care,Yes,195
+430,Eye Level,1031.51,987.3,No,Low,Young Adults,Personal Care,No,156
+431,Top Shelf,895.65,976.59,No,Low,Seniors,Food & Beverages,Yes,39
+432,Top Shelf,495.42,547.2,Yes,Low,Middle-Aged,Sports,Yes,114
+433,Checkout Zone,290.17,318.86,Yes,Low,Students,Home & Kitchen,Yes,84
+434,Checkout Zone,1340.84,1446.43,Yes,Low,Young Adults,Sports,Yes,125
+435,Top Shelf,791.49,824.38,No,Medium,Young Adults,Personal Care,No,85
+436,Entrance Display,1341.84,1267.36,Yes,High,Middle-Aged,Clothing,Yes,214
+437,Checkout Zone,601.28,676.24,Yes,Medium,Seniors,Home & Kitchen,Yes,154
+438,Floor Level,625.93,540.67,No,Medium,Middle-Aged,Sports,No,82
+439,Floor Level,55.34,60.05,Yes,Low,Middle-Aged,Electronics,Yes,76
+440,Entrance Display,1814.32,1951.33,Yes,Medium,Seniors,Personal Care,No,149
+441,Eye Level,1635.7,1890.79,Yes,Medium,Families,Sports,Yes,205
+442,Eye Level,68.86,61.87,Yes,High,Middle-Aged,Personal Care,No,315
+443,Top Shelf,1763.03,1555.93,No,Medium,Families,Personal Care,No,98
+444,Entrance Display,1609.8,1733.91,No,Low,Young Adults,Food & Beverages,Yes,116
+445,End Cap,861.25,910.14,Yes,High,Families,Personal Care,Yes,254
+446,Entrance Display,992.01,1012.69,Yes,Medium,Families,Electronics,Yes,163
+447,Floor Level,74.1,85.51,No,High,Students,Food & Beverages,No,93
+448,Checkout Zone,894.05,987.32,Yes,Medium,Seniors,Sports,No,123
+449,End Cap,72.71,85.58,Yes,High,Middle-Aged,Electronics,No,282
+450,Floor Level,695.24,658.64,Yes,High,Middle-Aged,Home & Kitchen,No,81
+451,Top Shelf,203.72,204.83,Yes,High,Families,Personal Care,Yes,108
+452,Top Shelf,250.15,248.73,Yes,High,Students,Electronics,Yes,158
+453,Checkout Zone,1785.72,1869.32,No,High,Seniors,Electronics,Yes,132
+454,Top Shelf,1142.29,1218.73,No,Medium,Seniors,Sports,No,46
+455,Eye Level,1530.67,1419.87,Yes,Medium,Seniors,Home & Kitchen,No,207
+456,Entrance Display,139.27,126.38,Yes,Low,Families,Electronics,No,144
+457,Checkout Zone,415.71,488.7,Yes,Medium,Middle-Aged,Sports,No,158
+458,Eye Level,140.68,150.76,No,High,Students,Electronics,No,270
+459,Top Shelf,1929.52,1643.02,Yes,High,Students,Clothing,Yes,190
+460,Entrance Display,1474.46,1319.54,Yes,Medium,Students,Home & Kitchen,No,189
+461,Checkout Zone,866.4,921.11,No,High,Seniors,Personal Care,No,157
+462,End Cap,854.85,936.07,Yes,High,Students,Personal Care,No,244
+463,Entrance Display,441.73,471.97,Yes,Medium,Middle-Aged,Sports,Yes,157
+464,Checkout Zone,1435.19,1602.06,No,High,Families,Home & Kitchen,No,114
+465,Entrance Display,1761.08,1757.27,No,Low,Middle-Aged,Electronics,Yes,93
+466,End Cap,1512.86,1371.15,No,Medium,Seniors,Food & Beverages,Yes,159
+467,Entrance Display,447.8,465.45,No,Medium,Students,Food & Beverages,No,143
+468,End Cap,1401.23,1214.09,No,Medium,Families,Clothing,No,151
+469,Checkout Zone,75.28,70.61,Yes,High,Families,Food & Beverages,No,221
+470,Checkout Zone,1563.49,1856.65,Yes,Medium,Families,Food & Beverages,Yes,120
+471,End Cap,1483.4,1322.86,Yes,Low,Middle-Aged,Food & Beverages,No,117
+472,Eye Level,959.35,1130.23,No,Low,Middle-Aged,Personal Care,Yes,137
+473,Entrance Display,1006.57,1057.34,No,Medium,Students,Food & Beverages,Yes,168
+474,Checkout Zone,1583.2,1434.03,Yes,High,Students,Clothing,Yes,208
+475,Floor Level,1772.62,1918.27,Yes,Medium,Students,Home & Kitchen,No,78
+476,Checkout Zone,273.71,265.8,Yes,Low,Students,Home & Kitchen,Yes,115
+477,Eye Level,793.68,895.8,No,Low,Seniors,Electronics,No,107
+478,Checkout Zone,999.27,953.06,No,High,Middle-Aged,Personal Care,Yes,172
+479,Eye Level,1944.68,2179.33,Yes,High,Middle-Aged,Sports,No,299
+480,Eye Level,1098.62,1204.04,Yes,High,Families,Sports,Yes,292
+481,Entrance Display,96.32,106.04,Yes,Low,Seniors,Home & Kitchen,Yes,128
+482,Checkout Zone,1826.42,1813.04,Yes,Medium,Families,Clothing,No,153
+483,Eye Level,1362.93,1413.62,No,High,Students,Electronics,Yes,232
+484,Floor Level,615.18,670.58,Yes,High,Young Adults,Personal Care,No,106
+485,Top Shelf,1653.14,1423.0,No,Low,Families,Home & Kitchen,No,52
+486,Entrance Display,631.21,732.48,Yes,High,Seniors,Electronics,Yes,225
+487,Eye Level,59.81,63.33,Yes,High,Middle-Aged,Sports,No,284
+488,End Cap,1815.97,2084.75,No,Low,Middle-Aged,Food & Beverages,Yes,109
+489,Checkout Zone,428.94,391.83,No,High,Students,Clothing,Yes,179
+490,Floor Level,538.84,495.25,Yes,High,Families,Personal Care,No,82
+491,End Cap,245.09,261.47,Yes,Low,Students,Sports,No,130
+492,Entrance Display,1152.83,1126.98,Yes,Medium,Families,Food & Beverages,Yes,194
+493,Floor Level,1582.04,1739.09,Yes,High,Middle-Aged,Sports,No,78
+494,Top Shelf,918.45,1029.74,No,Medium,Students,Electronics,Yes,104
+495,Entrance Display,1691.5,1946.15,Yes,Low,Young Adults,Sports,Yes,132
+496,Eye Level,1634.65,1720.66,Yes,High,Middle-Aged,Electronics,No,284
+497,Checkout Zone,1325.12,1195.29,No,Medium,Seniors,Food & Beverages,No,125
+498,Checkout Zone,823.73,844.95,Yes,High,Middle-Aged,Home & Kitchen,Yes,228
+499,Checkout Zone,920.13,839.8,Yes,High,Families,Personal Care,Yes,166
+500,End Cap,501.91,473.06,No,Low,Young Adults,Sports,Yes,67
