@@ -1,0 +1,96 @@
+.page {
+  background: #0c0c0c;
+  min-height: calc(100vh - 62px);
+  padding: 56px 52px 64px;
+}
+
+.header { margin-bottom: 32px; }
+
+.title {
+  font-size: clamp(20px, 2.5vw, 30px);
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.sub {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+/* KPI grid */
+.kpiGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.kpiCard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 3px solid;
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.kpiVal {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.kpiLabel {
+  font-size: 12px;
+  color: #666;
+}
+
+.kpiNote {
+  font-size: 11px;
+  color: #4caf50;
+  margin-top: 2px;
+}
+
+/* Findings */
+.findingsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.findingCard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 26px 26px;
+  transition: background 0.2s;
+}
+.findingCard:hover { background: var(--card2); }
+
+.findingIcon {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.findingTitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.findingDesc {
+  color: #777;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .page { padding: 36px 24px 48px; }
+  .kpiGrid { grid-template-columns: 1fr 1fr; }
+  .findingsGrid { grid-template-columns: 1fr; }
+}
