@@ -1,0 +1,110 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gold:        #F5A623;
+  --gold-light:  #ffc04a;
+  --gold-dim:    rgba(245, 166, 35, 0.1);
+  --dark:        #080808;
+  --surface:     #111111;
+  --card:        #141414;
+  --card2:       #1a1a1a;
+  --border:      #242424;
+  --text:        #e2e2e2;
+  --muted:       #787878;
+  --green:       #7FC97F;
+  --pink:        #F08080;
+  --teal:        #4DB6AC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--dark);
+  color: var(--text);
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
+
+/* ── shared button styles ── */
+.btn-gold {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  background: var(--gold);
+  color: #000;
+  border: none;
+  padding: 13px 36px;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: all 0.25s;
+}
+.btn-gold:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(245, 166, 35, 0.3);
+}
+
+.btn-ghost {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  background: none;
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  padding: 13px 36px;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: all 0.25s;
+}
+.btn-ghost:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ── shared section labels ── */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.eyebrow::after {
+  content: '';
+  flex: 0 0 48px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.page-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.05;
+}
+
+/* ── animations ── */
+@keyframes fromLeft {
+  from { opacity: 0; transform: translateX(-28px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
