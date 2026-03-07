@@ -262,3 +262,148 @@
   .filterBar { flex-direction: column; align-items: stretch; }
   .exportBtn { margin-left: 0; text-align: center; }
 }
+
+/* ══════════════════════════════════════
+   ANIMATIONS — added for premium feel
+══════════════════════════════════════ */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(10px) scale(0.95); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes borderSlide {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+@keyframes scanline {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Page background effects */
+.page {
+  position: relative;
+  overflow: hidden;
+}
+.page::before {
+  content: '';
+  position: fixed;
+  left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(245,166,35,0.05), transparent);
+  animation: scanline 10s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+.page > * { position: relative; z-index: 1; }
+
+/* Header animations */
+.header { animation: fadeLeft 0.6s ease both; }
+.title::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: var(--gold);
+  margin-top: 6px;
+  animation: borderSlide 0.8s 0.4s ease both;
+}
+
+/* Status banner */
+.statusOk, .statusLoading, .statusError {
+  animation: fadeLeft 0.5s 0.2s ease both;
+}
+
+/* Filter bar slide in */
+.filterBar { animation: fadeUp 0.5s 0.25s ease both; }
+
+/* KPI cards stagger */
+.kpiCard {
+  opacity: 0;
+  animation: countUp 0.5s ease forwards;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.kpiCard:nth-child(1) { animation-delay: 0.3s; }
+.kpiCard:nth-child(2) { animation-delay: 0.4s; }
+.kpiCard:nth-child(3) { animation-delay: 0.5s; }
+.kpiCard:nth-child(4) { animation-delay: 0.6s; }
+.kpiCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.4);
+}
+
+/* Shimmer top bar on KPI card hover */
+.kpiCard::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%; width: 50%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
+  transition: left 0.4s;
+}
+.kpiCard { position: relative; overflow: hidden; }
+.kpiCard:hover::before { left: 150%; }
+
+/* Chart cards */
+.chartCard {
+  opacity: 0;
+  animation: fadeUp 0.6s ease forwards;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.chartsRow .chartCard:nth-child(1) { animation-delay: 0.4s; }
+.chartsRow .chartCard:nth-child(2) { animation-delay: 0.5s; }
+.chartsRow .chartCard:nth-child(3) { animation-delay: 0.6s; }
+.chartCard:hover {
+  box-shadow: 0 0 0 1px rgba(245,166,35,0.2), 0 8px 32px rgba(0,0,0,0.4);
+  transform: translateY(-2px);
+}
+
+/* Bar fill animation */
+.barFill {
+  animation: barGrow 0.8s ease both;
+  transform-origin: left;
+}
+@keyframes barGrow {
+  from { width: 0 !important; }
+}
+
+/* Rec cards stagger */
+.recCard {
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.recsGrid .recCard:nth-child(1) { animation-delay: 0.3s; }
+.recsGrid .recCard:nth-child(2) { animation-delay: 0.4s; }
+.recsGrid .recCard:nth-child(3) { animation-delay: 0.5s; }
+.recsGrid .recCard:nth-child(4) { animation-delay: 0.6s; }
+.recsGrid .recCard:nth-child(5) { animation-delay: 0.7s; }
+.recsGrid .recCard:nth-child(6) { animation-delay: 0.8s; }
+.recCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.4);
+}
+
+/* Section headings slide in */
+.sectionHead {
+  animation: fadeLeft 0.5s ease both;
+  position: relative;
+}
+
+/* Finding cards */
+.findingCard {
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards;
+}
+.findingsGrid .findingCard:nth-child(1) { animation-delay: 0.3s; }
+.findingsGrid .findingCard:nth-child(2) { animation-delay: 0.4s; }
+.findingsGrid .findingCard:nth-child(3) { animation-delay: 0.5s; }

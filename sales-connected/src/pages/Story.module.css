@@ -1,24 +1,81 @@
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeLeft {
+  from { opacity: 0; transform: translateX(-24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+@keyframes scanline {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+@keyframes numGlow {
+  0%, 100% { color: rgba(245,166,35,0.08); }
+  50%       { color: rgba(245,166,35,0.18); }
+}
+@keyframes borderSlide {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
 .page {
   background: #0c0c0c;
   min-height: calc(100vh - 62px);
   padding: 56px 52px 64px;
+  position: relative;
+  overflow: hidden;
 }
 
-.header { margin-bottom: 32px; }
+/* Animated scanline effect */
+.page::before {
+  content: '';
+  position: fixed;
+  left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(245,166,35,0.06), transparent);
+  animation: scanline 8s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.page > * { position: relative; z-index: 1; }
+
+.header {
+  margin-bottom: 32px;
+  animation: fadeLeft 0.7s ease both;
+}
 
 .title {
   font-size: clamp(20px, 2.5vw, 30px);
   letter-spacing: 2px;
   margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+/* Animated underline on title */
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: -4px; left: 0;
+  height: 1px;
+  background: var(--gold);
+  animation: borderSlide 1s 0.5s ease both;
 }
 
 .sub {
   color: var(--muted);
   font-size: 13px;
   margin-top: 6px;
+  animation: fadeUp 0.6s 0.2s ease both;
 }
 
-/* Highlights */
+/* Highlights section */
 .hlHeader {
   font-family: 'Oswald', sans-serif;
   font-size: 11px;
@@ -27,6 +84,7 @@
   text-transform: uppercase;
   margin-top: 36px;
   margin-bottom: 18px;
+  animation: fadeLeft 0.6s 0.3s ease both;
 }
 
 .hlGrid {
@@ -35,22 +93,52 @@
   gap: 16px;
 }
 
+/* Staggered card entrance */
 .hlCard {
   background: var(--card);
   border-top: 3px solid var(--gold);
   padding: 26px 24px;
-  transition: background 0.2s;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  opacity: 0;
+  animation: fadeUp 0.6s ease forwards;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
 }
-.hlCard:hover { background: var(--card2); }
+.hlCard:nth-child(1) { animation-delay: 0.35s; }
+.hlCard:nth-child(2) { animation-delay: 0.45s; }
+.hlCard:nth-child(3) { animation-delay: 0.55s; }
+.hlCard:nth-child(4) { animation-delay: 0.65s; }
+.hlCard:nth-child(5) { animation-delay: 0.75s; }
+.hlCard:nth-child(6) { animation-delay: 0.85s; }
+
+.hlCard:hover {
+  background: var(--card2);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.5), 0 0 0 1px rgba(245,166,35,0.15);
+}
+
+/* Shimmer sweep on hover */
+.hlCard::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%; width: 60%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(245,166,35,0.04), transparent);
+  transition: left 0.5s ease;
+}
+.hlCard:hover::before { left: 150%; }
 
 .hlNum {
   font-family: 'Oswald', sans-serif;
   font-size: 46px;
   font-weight: 900;
-  color: rgba(245, 166, 35, 0.1);
+  color: rgba(245, 166, 35, 0.08);
   line-height: 1;
   margin-bottom: 8px;
+  animation: numGlow 3s infinite;
+  transition: color 0.3s;
 }
+.hlCard:hover .hlNum { color: rgba(245,166,35,0.2); }
 
 .hlTitle {
   font-family: 'Oswald', sans-serif;
@@ -58,13 +146,17 @@
   color: var(--gold);
   font-weight: 700;
   margin-bottom: 10px;
+  transition: letter-spacing 0.3s;
 }
+.hlCard:hover .hlTitle { letter-spacing: 0.5px; }
 
 .hlDesc {
   color: #777;
   font-size: 13px;
   line-height: 1.7;
+  transition: color 0.3s;
 }
+.hlCard:hover .hlDesc { color: #999; }
 
 @media (max-width: 900px) {
   .page { padding: 36px 24px 48px; }

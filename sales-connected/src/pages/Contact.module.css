@@ -1,12 +1,56 @@
+/* ── Page enter animation ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeLeft {
+  from { opacity: 0; transform: translateX(-32px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeRight {
+  from { opacity: 0; transform: translateX(32px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245,166,35,0.4); }
+  50%       { box-shadow: 0 0 0 8px rgba(245,166,35,0); }
+}
+@keyframes borderGlow {
+  0%, 100% { border-bottom-color: var(--gold); }
+  50%       { border-bottom-color: #ffc04a; box-shadow: 0 2px 12px rgba(245,166,35,0.3); }
+}
+
 .page {
   background: var(--dark);
   min-height: calc(100vh - 62px);
   padding: 80px 80px;
+  position: relative;
+  overflow: hidden;
 }
+
+/* Subtle background grid */
+.page::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(245,166,35,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245,166,35,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.page > * { position: relative; z-index: 1; }
 
 .title {
   font-size: clamp(36px, 5vw, 60px);
   margin-bottom: 0;
+  animation: fadeUp 0.7s ease both;
 }
 
 .grid {
@@ -21,6 +65,18 @@
 .infoCard {
   background: #fff;
   padding: 40px 36px;
+  animation: fadeLeft 0.7s 0.2s ease both;
+  position: relative;
+  overflow: hidden;
+}
+.infoCard::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold), #ffc04a, var(--gold));
+  background-size: 200% 100%;
+  animation: shimmer 2.5s infinite linear;
 }
 
 .infoItem {
@@ -28,8 +84,10 @@
   gap: 16px;
   align-items: flex-start;
   margin-bottom: 32px;
+  transition: transform 0.25s;
 }
 .infoItem:last-child { margin-bottom: 0; }
+.infoItem:hover { transform: translateX(5px); }
 
 .infoIcon {
   width: 46px;
@@ -40,6 +98,12 @@
   justify-content: center;
   font-size: 18px;
   flex-shrink: 0;
+  transition: all 0.3s;
+  animation: pulse 3s infinite;
+}
+.infoItem:hover .infoIcon {
+  transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 4px 20px rgba(245,166,35,0.5);
 }
 
 .infoLabel {
@@ -60,6 +124,18 @@
 .formCard {
   background: #fff;
   padding: 44px 48px;
+  animation: fadeRight 0.7s 0.3s ease both;
+  position: relative;
+  overflow: hidden;
+}
+.formCard::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ffc04a, var(--gold), #ffc04a);
+  background-size: 200% 100%;
+  animation: shimmer 2.5s 1s infinite linear;
 }
 
 .row2 {
@@ -68,7 +144,14 @@
   gap: 24px;
 }
 
-.field { margin-bottom: 26px; }
+.field {
+  margin-bottom: 26px;
+  animation: fadeUp 0.5s ease both;
+}
+.field:nth-child(1) { animation-delay: 0.4s; }
+.field:nth-child(2) { animation-delay: 0.5s; }
+.field:nth-child(3) { animation-delay: 0.6s; }
+.field:nth-child(4) { animation-delay: 0.7s; }
 
 .input,
 .textarea {
@@ -81,13 +164,17 @@
   font-size: 14px;
   padding: 11px 4px;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.3s, transform 0.2s;
   resize: none;
 }
 .input::placeholder,
 .textarea::placeholder { color: #bbb; }
 .input:focus,
-.textarea:focus { border-bottom-color: var(--gold); }
+.textarea:focus {
+  border-bottom-color: var(--gold);
+  transform: translateY(-1px);
+  animation: borderGlow 1.5s infinite;
+}
 
 .submitRow {
   display: flex;
@@ -95,11 +182,13 @@
   align-items: center;
   gap: 16px;
   margin-top: 8px;
+  animation: fadeUp 0.5s 0.8s ease both;
 }
 
 .sentMsg {
   font-size: 13px;
   color: #4caf50;
+  animation: fadeLeft 0.4s ease both;
 }
 
 @media (max-width: 900px) {
